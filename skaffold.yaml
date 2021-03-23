@@ -8,7 +8,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: richardfcampos/client
+    - image: richardfcampos/clientlik
       context: client
       docker:
         dockerfile: Dockerfile
